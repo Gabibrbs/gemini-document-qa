@@ -1,0 +1,40 @@
+﻿data_hora,modelo,modelo_devolvido,temperatura,versao_prompt,numero_pergunta,pergunta,resposta_esperada,estado,tentativas,tempo_resposta_segundos,tempo_total_segundos,numero_palavras,resposta,erro,clareza,relevancia,inventou_resposta
+2026-11-06T12:49:52,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Prompt 1 (básico),1,Quais são as etapas do ciclo de vida de um sistema generativo?,"As 6 etapas da tabela: seleção do modelo, preparação dos dados, afinamento (fine-tuning), integração em sistemas, monitorização e atualização.",sucesso,1,2.4,2.4,35,"Com base no texto fornecido, as etapas do ciclo de vida de um sistema generativo são:
+
+1. **Seleção do modelo**
+2. **Preparação dos dados**
+3. **Afinamento (fine-tuning)**
+4. **Integração em sistemas**
+5. **Monitorização**
+6. **Atualização**",,4,5,
+2026-11-06T12:50:08,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Prompt 1 (básico),2,O que é o LLMOps e qual é o seu foco?,"Subconjunto do MLOps adaptado aos LLMs, focado na operacionalização estável, segura e escalável em ambientes de produção.",sucesso,1,3.16,3.16,49,"Com base no texto:
+
+* **O que é:** O LLMOps é um subconjunto do campo MLOps (*Machine Learning Operations*), adaptado para grandes modelos de linguagem (LLMs).
+* **Qual é o seu foco:** O seu foco é garantir a operacionalização estável, segura e escalável de LLMs em ambientes de produção.",,5,5,
+2026-11-06T12:50:24,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Prompt 1 (básico),3,Qual é a diferença entre fine-tuning e inference?,Fine-tuning é continuar o treino do modelo com dados especializados. Inference é a fase em que o modelo gera respostas depois de treinado.,sucesso,1,4.46,4.46,86,"Com base no texto (especificamente no glossário e na tabela do ciclo de vida), a diferença é a seguinte:
+
+* **Fine-tuning:** É o processo de continuar o treino do modelo utilizando um conjunto de dados especializado para o ajustar e especializar numa tarefa específica.
+* **Inference:** É a fase posterior ao treino, na qual o modelo gera respostas para os utilizadores.
+
+Em suma, o *fine-tuning* é uma etapa de **ajuste/treino**, enquanto a *inference* é a fase de **utilização/geração de respostas** após o modelo ter sido treinado.",,5,5,
+2026-11-06T12:50:39,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Prompt 1 (básico),4,Qual é o custo mensal médio de uma plataforma de LLMOps numa empresa?,"O excerto não diz. O modelo deve admitir que não consta, em vez de inventar um valor.",sucesso,1,3.22,3.22,42,"Com base no texto fornecido, não é mencionado qual é o custo mensal médio de uma plataforma de LLMOps numa empresa (o texto refere apenas o ""Controlo de custos computacionais"" como um dos componentes do LLMOps, mas não apresenta valores nem médias).",,5,5,não
+2026-11-06T12:50:54,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Prompt 2 (contexto e passos),1,Quais são as etapas do ciclo de vida de um sistema generativo?,"As 6 etapas da tabela: seleção do modelo, preparação dos dados, afinamento (fine-tuning), integração em sistemas, monitorização e atualização.",sucesso,1,2.86,2.86,25,"As etapas do ciclo de vida de um sistema generativo são: seleção do modelo, preparação dos dados, afinamento (fine-tuning), integração em sistemas, monitorização e atualização.",,5,5,
+2026-11-06T12:51:11,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Prompt 2 (contexto e passos),2,O que é o LLMOps e qual é o seu foco?,"Subconjunto do MLOps adaptado aos LLMs, focado na operacionalização estável, segura e escalável em ambientes de produção.",sucesso,1,4.56,4.56,35,"O LLMOps é um subconjunto do campo MLOps (Machine Learning Operations), adaptado para grandes modelos de linguagem (LLMs). O seu foco é garantir a operacionalização estável, segura e escalável de LLMs em ambientes de produção.",,5,5,
+2026-11-06T12:51:27,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Prompt 2 (contexto e passos),3,Qual é a diferença entre fine-tuning e inference?,Fine-tuning é continuar o treino do modelo com dados especializados. Inference é a fase em que o modelo gera respostas depois de treinado.,sucesso,1,4.24,4.24,41,"O *fine-tuning* é o processo de continuar o treino de um modelo com um conjunto de dados especializado para a sua especialização. Por outro lado, a *inference* refere-se à fase em que o modelo gera respostas, após já ter sido treinado.",,5,5,
+2026-11-06T12:51:43,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Prompt 2 (contexto e passos),4,Qual é o custo mensal médio de uma plataforma de LLMOps numa empresa?,"O excerto não diz. O modelo deve admitir que não consta, em vez de inventar um valor.",sucesso,1,3.75,3.75,6,Esta informação não consta no excerto.,,5,5,não
+2026-11-06T12:51:58,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Prompt 3 (com exemplos),1,Quais são as etapas do ciclo de vida de um sistema generativo?,"As 6 etapas da tabela: seleção do modelo, preparação dos dados, afinamento (fine-tuning), integração em sistemas, monitorização e atualização.",sucesso,1,3.02,3.02,31,"As etapas do ciclo de vida de um sistema generativo são a seleção do modelo, a preparação dos dados, o afinamento (fine-tuning), a integração em sistemas, a monitorização e a atualização.",,5,5,
+2026-11-06T12:52:14,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Prompt 3 (com exemplos),2,O que é o LLMOps e qual é o seu foco?,"Subconjunto do MLOps adaptado aos LLMs, focado na operacionalização estável, segura e escalável em ambientes de produção.",sucesso,1,3.74,3.74,35,"O LLMOps é um subconjunto do campo MLOps (Machine Learning Operations), adaptado para grandes modelos de linguagem (LLMs). O seu foco é garantir a operacionalização estável, segura e escalável de LLMs em ambientes de produção.",,5,5,
+2026-11-06T12:52:29,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Prompt 3 (com exemplos),3,Qual é a diferença entre fine-tuning e inference?,Fine-tuning é continuar o treino do modelo com dados especializados. Inference é a fase em que o modelo gera respostas depois de treinado.,sucesso,1,3.43,3.43,36,"O fine-tuning é o processo de continuar o treino de um modelo com um conjunto de dados especializado. Por outro lado, a inference é a fase em que o modelo gera respostas, após ter sido treinado.",,5,5,
+2026-11-06T12:52:46,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Prompt 3 (com exemplos),4,Qual é o custo mensal médio de uma plataforma de LLMOps numa empresa?,"O excerto não diz. O modelo deve admitir que não consta, em vez de inventar um valor.",sucesso,1,4.61,4.61,6,Esta informação não consta no excerto.,,5,5,não
+2026-11-06T12:53:06,gemini-3.5-flash,gemini-3.6-flash,por defeito do modelo,Multimodal (texto + imagem),5,"Descreve a figura, indica quantas etapas mostra e compara-as com as da tabela do excerto.","A figura mostra 4 etapas e a tabela tem 6, por isso não coincidem totalmente.",sucesso,1,8.85,8.85,155,"Aqui tens a análise solicitada:
+
+1. **Descrição da figura:**
+A figura apresenta o diagrama do ""Ciclo de Vida da IA Generativa"", composto por quatro caixas retangulares organizadas verticalmente e ligadas por setas sequenciais. As etapas indicadas são ""Modelo Pré-Treinado"", ""Afinamento"", ""Integração"" e ""Retreino"". O esquema ilustra o fluxo contínuo de desenvolvimento e atualização de um modelo generativo.
+
+2. **Número de etapas:**
+A figura mostra **4 etapas**.
+
+3. **Comparação com a tabela do excerto:**
+As etapas **não coincidem totalmente**. 
+* A figura apresenta **4 etapas** (*Modelo Pré-Treinado*, *Afinamento*, *Integração* e *Retreino*), ao passo que a tabela do excerto detalha **6 etapas** (*Seleção do modelo*, *Preparação dos dados*, *Afinamento*, *Integração em sistemas*, *Monitorização* e *Atualização*).
+* Embora existam equivalências diretas (como ""Afinamento"" e ""Integração"") e correspondências concetuais (""Modelo Pré-Treinado"" relaciona-se com a ""Seleção do modelo"" e ""Retreino"" com a ""Atualização""), a figura não inclui explicitamente as etapas de ""Preparação dos dados"" nem de ""Monitorização"" presentes no texto.",,5,5,

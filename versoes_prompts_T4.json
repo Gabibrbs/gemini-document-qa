@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Prompt 1 (básico)",
+    "tecnicas": "zero-shot",
+    "modelo": "Responde à pergunta com base no texto.\n\n{excerto}\n\nPergunta: {pergunta}"
+  },
+  {
+    "nome": "Prompt 2 (contexto e passos)",
+    "tecnicas": "papel, delimitação do contexto, passos, regras de resposta",
+    "modelo": "Atua como assistente de estudo de um curso de Inteligência Artificial.\nO texto de referência está entre as etiquetas <excerto> e </excerto>.\n\nSegue estes passos:\n1. Lê o excerto com atenção.\n2. Procura nele a informação relevante para a pergunta.\n3. Responde só com o que está no excerto, em português europeu, em no máximo 3 frases.\n4. Se a resposta não estiver no excerto, responde exatamente: \"Esta informação não consta no excerto.\"\n\n<excerto>\n{excerto}\n</excerto>\n\nPergunta: {pergunta}"
+  },
+  {
+    "nome": "Prompt 3 (com exemplos)",
+    "tecnicas": "tudo do Prompt 2 e dois exemplos (few-shot)",
+    "modelo": "Atua como assistente de estudo de um curso de Inteligência Artificial.\nO texto de referência está entre as etiquetas <excerto> e </excerto>.\n\nSegue estes passos:\n1. Lê o excerto com atenção.\n2. Procura nele a informação relevante para a pergunta.\n3. Responde só com o que está no excerto, em português europeu, em no máximo 3 frases.\n4. Se a resposta não estiver no excerto, responde exatamente: \"Esta informação não consta no excerto.\"\n\nExemplo 1\n<excerto>A Biblioteca Municipal abre de segunda a sexta, das 9h às 18h.</excerto>\nPergunta: A que horas abre a biblioteca?\nResposta: Abre às 9h.\n\nExemplo 2\n<excerto>A Biblioteca Municipal abre de segunda a sexta, das 9h às 18h.</excerto>\nPergunta: Quanto custa a inscrição?\nResposta: Esta informação não consta no excerto.\n\n<excerto>\n{excerto}\n</excerto>\n\nPergunta: {pergunta}\nResposta:"
+  }
+]

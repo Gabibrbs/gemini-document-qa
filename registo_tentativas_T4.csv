@@ -1,0 +1,15 @@
+﻿data_hora,modelo,versao_prompt,numero_pergunta,numero_tentativa,resultado,codigo_erro,tipo_erro,tempo_segundos
+2026-11-06T12:49:50,gemini-3.5-flash,Teste inicial,0,1,sucesso,,,3.75
+2026-11-06T12:49:52,gemini-3.5-flash,Prompt 1 (básico),1,1,sucesso,,,2.4
+2026-11-06T12:50:08,gemini-3.5-flash,Prompt 1 (básico),2,1,sucesso,,,3.16
+2026-11-06T12:50:24,gemini-3.5-flash,Prompt 1 (básico),3,1,sucesso,,,4.46
+2026-11-06T12:50:39,gemini-3.5-flash,Prompt 1 (básico),4,1,sucesso,,,3.22
+2026-11-06T12:50:54,gemini-3.5-flash,Prompt 2 (contexto e passos),1,1,sucesso,,,2.86
+2026-11-06T12:51:11,gemini-3.5-flash,Prompt 2 (contexto e passos),2,1,sucesso,,,4.56
+2026-11-06T12:51:27,gemini-3.5-flash,Prompt 2 (contexto e passos),3,1,sucesso,,,4.24
+2026-11-06T12:51:43,gemini-3.5-flash,Prompt 2 (contexto e passos),4,1,sucesso,,,3.75
+2026-11-06T12:51:58,gemini-3.5-flash,Prompt 3 (com exemplos),1,1,sucesso,,,3.02
+2026-11-06T12:52:14,gemini-3.5-flash,Prompt 3 (com exemplos),2,1,sucesso,,,3.74
+2026-11-06T12:52:29,gemini-3.5-flash,Prompt 3 (com exemplos),3,1,sucesso,,,3.43
+2026-11-06T12:52:46,gemini-3.5-flash,Prompt 3 (com exemplos),4,1,sucesso,,,4.61
+2026-11-06T12:53:06,gemini-3.5-flash,Multimodal (texto + imagem),5,1,sucesso,,,8.85
